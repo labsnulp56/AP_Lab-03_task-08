@@ -72,7 +72,7 @@ void success(struct Student *arr, int count)
 	rezult = ((x_stud * 100) / all_stud);
 
 	puts("---------------------------------------------------------------------------");
-	printf("Відсоток студентів у котрих рейтинговий бал нижчий 71 складає  %d \n", rezult);
+	printf("Percentage of students in which the rating points of the lower 71  %d \n", rezult);
 }
 
 void quick_struct(struct Student *arr, int count)
